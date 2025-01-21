@@ -1,0 +1,67 @@
+nav {
+  font-family: Arial;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+}
+
+nav > div {
+  width: 100%;
+  background: #111627;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.dropdowncontent {
+  display: none;
+  width: inherit;
+  height: inherit;
+  background: #111627;
+  color: white;
+  z-index: 1;
+  padding-top: 1%;
+}
+
+.dropdown {
+  display: inline-block;
+  z-index: 1;
+  padding-left: 1%;
+  color: white;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #22323e;
+  background-image: url("https://cdn.glitch.global/de5b4c0c-2888-437c-b4dd-0712c751b2a3/bgimg.png?v=1734174347757");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-family: Arial;
+}
+
+.contentcontainer {
+  background-color: #22323e;
+  color: white;
+  width: 80%;
+  margin: auto;
+  height: 140%;
+  padding: 1%;
+}
+
+.whybox {
+  background-color: #5e4b64;
+  text-indent: 4ch;
+  padding: 1%;
+}

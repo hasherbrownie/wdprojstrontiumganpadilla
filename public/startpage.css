@@ -1,0 +1,177 @@
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+}
+
+nav > div {
+  width: 100%;
+  background: #111627;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  /*width: inherit;  */
+  height: inherit;
+  background-color: #111627;
+  color: white;
+  z-index: 1;
+  padding-top: 1%;
+  /*min-width: 160px;*/
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  padding: 12px 16px;
+}
+
+.dropdown {
+  display: inline-block;
+  z-index: 1;
+  padding-left: 1%;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+body {
+  background: #111627;
+  color: white;
+  font-family: Verdana, sans-serif;
+  margin: 2.5px;
+  margin: 0; 
+  padding: 0; 
+  width: 100%; 
+  height: 100%; 
+  overflow-x: hidden;
+}
+
+.bgimgcontainer {
+  position: relative;
+}
+
+#title {
+  position: absolute;
+  bottom: 0;
+  right: 1%; 
+  text-align: left;
+  width: calc(100% - 2%); 
+  color: white;
+  padding: 3.5%; 
+  box-sizing: border-box;
+  font-size: 2.5vw;
+}
+.h1a{
+  width: 80%;
+  background-color: blue;
+  color: white;
+  border-radius: 2px; 
+  box-sizing: border-box;
+}
+
+#introduction {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+#introduction p {
+  border-radius: 25px;
+  color: white;
+  padding: 20px;
+  background: #7a2930;
+  margin: 2%;
+}
+
+#characters {
+  text-align: center;
+  background: #7a2930;
+  width: 100%;
+}
+
+#protagonists {
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: #F09FC2;
+  color: #121f4f;
+  width: 100%;
+
+}
+
+.fimghome{
+  display: inline-block;
+  background-color: black; 
+  padding: 3.5%;
+  margin: 0 auto;
+}
+
+.name{
+  font-size: 35px;
+}
+
+#antagonists {
+  text-align: right;
+  background: #8B1C2F;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#ladybug h2, #ladybug p {
+  margin: 2%;
+}
+
+#neutral{
+  text-align: left;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: #F09FC2;
+  color: #121f4f;
+}
+
+#gallery {
+  width: 100%;
+  position: relative;
+}
+
+#changingimg {
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+
+.customhorizontalline {
+  display: inline-block;
+  height: 2px;
+  width: 5%;
+  background-color: white;
+}
+
+.seasonblock {
+  display: inline-block;
+  height: 5%;
+  width: 10%;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  padding: 1%;
+}
+
+#seasonexplanationblock {
+  width: 96%;
+  text-align: left;
+  min-height: 21ch;
+  border-style: solid;
+  border-color: #8B1C2F;
+  padding: 1%;
+  margin: auto;
+}
