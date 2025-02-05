@@ -73,3 +73,9 @@ table, td {
   border: 1px solid white;
   border-collapse: collapse;
 }
+
+footer {
+  color: #dfeaf2;
+  font-family: Arial;
+  text-align: right;
+}

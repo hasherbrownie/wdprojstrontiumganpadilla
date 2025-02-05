@@ -215,3 +215,7 @@ figcaption {
 * {
   box-sizing: border-box;
 }
+
+footer {
+  color: #dfeaf2;
+}

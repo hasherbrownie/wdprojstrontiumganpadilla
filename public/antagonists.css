@@ -60,6 +60,49 @@ nav > div {
     color: white;
     width: 80%;
     margin: auto;
-    height: 140%;
+    height: 200%;
     padding: 1%;
+}
+
+h1, h2 {
+    margin: auto;
+    text-align: center;
+}
+
+figure {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 2%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+figcaption {
+    float: none;
+    background-color: black;
+    padding: 0.5%;
+}
+
+footer {
+    color: #dfeaf2;
+}
+
+footer > h2 {
+    text-align: left;
+}
+
+.githubsprite {
+    background: url('icon.png') no-repeat -412px -91px;
+    width: 33px;
+    height: 33px;
+}
+
+.facebooksprite {
+    background: url('icon.png') no-repeat -182px -91px;
+    width: 33px;
+    height: 33px;
 }
