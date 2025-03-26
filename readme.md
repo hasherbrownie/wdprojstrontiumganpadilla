@@ -11,13 +11,13 @@ https://www.canva.com/design/DAGVHweTsLw/mj8KyigPscuYhY2OHCZsxA/edit?utm_content
 So basically, we're gonna make a commenting page. There'll be comment sections for each character. Then we're gonna save their comments to a json file.
 It'll look like this:
 
-Type of data: Comment data
-purpose: for posting and storing people's thoughts/comments
-structure in JSON format:
-comment {
-   title: text-string,
-   commentbody: text-string,
-   dateposted: date
+Type of data: Comment data\
+purpose: for posting and storing people's thoughts/comments\
+structure in JSON format:\
+comment {\
+   title: text-string,\
+   commentbody: text-string,\
+   dateposted: date\
 }
 
 We're also gonna add a criticism page. In that page, we're gonna dump all our critiques of the show and stuff. Doesn't have any persistent data, but that's covered with the page above already.
