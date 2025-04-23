@@ -3,11 +3,10 @@ function changeimg()
   var changingimg = document.getElementById("changingimg")
 
   const images = [
-    "https://cdn.glitch.global/de5b4c0c-2888-437c-b4dd-0712c751b2a3/galleryimg1.jpg?v=1734676348759",
-    "https://cdn.glitch.global/de5b4c0c-2888-437c-b4dd-0712c751b2a3/galleryimg2.jpg?v=1734676410678",
-    "https://cdn.glitch.global/de5b4c0c-2888-437c-b4dd-0712c751b2a3/galleryimg3.jpg?v=1734676418439",
-    "https://cdn.glitch.global/de5b4c0c-2888-437c-b4dd-0712c751b2a3/galleryimg4.jpg?v=1734676641484",
-    "https://cdn.glitch.global/de5b4c0c-2888-437c-b4dd-0712c751b2a3/galleryimg5.jpg?v=1734676405871"
+    "galleryimg1.jpg",
+    "galleryimg2.jpg",
+    "galleryimg3.jpg",
+    "galleryimg4.jpg"
   ];
 
   var currentimg = images.indexOf(changingimg.src);
