@@ -53,5 +53,23 @@ function calculate()
     percentage = 0;
   }
   
-  document.getElementById("output").innerHTML = `The percentage of love between ${name1} and ${name2} is ${percentage}%`
+  if (percentage === 108)
+  {
+    document.getElementById("output").innerHTML = `The percentage of love between ${name1} and ${name2} is ${percentage}%<br><h6 style="color: #8D2958">Congrats, the two are now in the list of pairs that got the highest possible percentage!</h6>`
+
+    fetch("/addtolist", {
+      method: "POST",
+      headers: {
+        "Content-Type": "text/plain"
+      },
+      body: `${name1} and ${name2}`
+    })
+  } else {
+    document.getElementById("output").innerHTML = `The percentage of love between ${name1} and ${name2} is ${percentage}%`
+  }
+}
+
+function loadlist()
+{
+  document.getElementById("names").submit()
 }

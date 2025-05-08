@@ -16,15 +16,7 @@
       <div>
         <a href="index.html">Home</a>
         <a href="aboutus.html">About us</a>
-        <div class="dropdown">
-          <span>Games &#11206;</span> <!-- thank god it was that easy to make an arrow lol -->
-          <div class="dropdowncontent">
-            <a href="lovecalculator.html">Love calculator</a>
-            <br>
-            <br>
-            <a>???</a>
-          </div>
-        </div>
+        <a href="lovecalculator.html">Love Calculator</a>
         <div class="dropdown">
           <span>Characters &#11206;</span>
           <div class="dropdowncontent">
@@ -32,9 +24,6 @@
             <br>
             <br>
             <a href="antagonists.html">Antagonists</a>
-            <br>
-            <br>
-            <a>Neutral</a>
           </div>
         </div>
       </div>
@@ -94,12 +83,15 @@
           <td><input id="q4ans" type="checkbox"></td>
         </tr>
       </table>
-      <h6>Fun fact: 108% is the max here because that's the number of Miraculous in the show, and the number symbolizes completenesss</h6>
-      <span>Name 1: </span>
-      <input type="text" id="name1">
-      <br>
-      <span>Name 2: </span>
-      <input type="text" id="name2">
+      <h6>Fun fact: 108% is the max here because that's the number of Miraculous in the show, and the number symbolizes completeness</h6>
+      <h6>You can see the list of pairs that got 108% by clicking <u onclick="loadlist()">here</u></h6>
+      <form action="/renderlist" method="post" id="names">
+        <span>Name 1: </span>
+        <input type="text" name="name1" id="name1" required>
+        <br>
+        <span>Name 2: </span>
+        <input type="text" name="name2" id="name2" required>
+      </form>
       <br>
       <br>
       <button onclick="calculate()">Calculate compatibility</button>

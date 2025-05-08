@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Maize Gan and Meira Padilla">
+        <meta name="description" content="A list of pairs that got 108% from the love calculator">
+        <meta name="keywords" content="list">
+        <title>List of 108% pairs</title>
+        <link rel="stylesheet" href="108list.css">
+        <link rel="icon" type="image/x-icon" href="../public/ladybugfavicon.ico">
+    </head>
+    <body>
+        <h1>List of 108% pairs</h1>
+        <a href="lovecalculator.html">Click to return to love calculator</a>
+        <br>
+        {{#each jsonfile}}
+            <h3>{{this}}</h3>
+        {{/each}}
+    </body>
+</html>
