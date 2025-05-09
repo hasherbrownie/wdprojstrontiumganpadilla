@@ -167,6 +167,11 @@ figcaption {
   box-sizing: border-box;
 }
 
+#recipe h2 {
+  border: 3px solid #e98b29;
+  background-color: rgb(39, 41, 54);
+}
+
 footer {
   color: rgb(191, 174, 208);
 }
