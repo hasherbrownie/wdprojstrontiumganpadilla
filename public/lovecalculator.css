@@ -4,7 +4,9 @@ html {
 
 body {
   background-color: #271835;
-  background-image: url("bgimg.png");
+  color: #b5a0c7;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,6 +16,7 @@ body {
 
 nav {
   font-family: Arial;
+  text-align: left;
 }
 
 nav a {
@@ -54,17 +57,6 @@ nav > div {
   display: block;
 }
 
-.contentcontainer {
-  background: #271835;
-  color: #b5a0c7;
-  text-align: center;
-  margin: auto;
-  font-family: 'Courier New', monospace;
-  height: 210%;
-  width: 80%;
-  padding: 1%;
-}
-
 h1, h4 {
   color: #8d2958;
 }
@@ -72,6 +64,7 @@ h1, h4 {
 table, td {
   border: 1px solid #b5a0c7;
   border-collapse: collapse;
+  margin: auto;
 }
 
 footer {

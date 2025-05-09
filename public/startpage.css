@@ -53,7 +53,7 @@ nav > div {
 
 .fimghome{
   display: inline-block;
-  background-color: #000000;
+  background-color: #a9bce6;
   border-radius: 2.5%;
   padding: 1%;
   margin: 0 auto;
@@ -83,8 +83,9 @@ nav > div {
   text-align: left;
   width: 100%;
   height: 100%;
-  margin: 3%;
+  margin: auto;
   font-size: 1.45vw;
+  background-image: url("ladybugthing.jpg");
 }
 
 #introduction p {
@@ -152,8 +153,8 @@ figcaption {
 
 #seasonexplanationblock {
   position: absolute;
-  color: black;
-  background-color: rgba(191, 174, 208, 1);
+  color: white;
+  background-color: rgba(39, 41, 54, 1);
   top: 30%;
   left: 20%;
   width: 60%;

@@ -9,7 +9,7 @@ function changeimg()
     "galleryimg4.jpg"
   ];
 
-  var currentimg = images.indexOf(changingimg.src);
+  var currentimg = images.indexOf(changingimg.src.split("/").pop());
   
   currentimg += 1; // go to next image
   
